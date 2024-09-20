@@ -1,0 +1,4 @@
+This repository contains code used for an assignment I completed as part of the MSc Data Analytics from UCD for the module "Data Programming with C". I received a grade of 96% for this assignment.
+
+In this assignment I was tasked with creating a function to simulate a random walk in 2D space where only integer movements could be made (i.e. can move left or right or up or down, by 1 unit). I then simulate this random walk 1000 times (with 20 movements in each walk) to estimate the probability the random walk reaches point (1,3) during the walk.   
+The repository contains 1 file, the Main .R file. This file uses the packages "Rcpp" and "Inline" which enables the creation, compilation and loading of C++ functions within an R script and which is why I do not require a separate .cpp file to be compiled into a .dll file as in the "Fibonacci_Numbers_Cpp" repository.
